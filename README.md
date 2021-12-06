@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # food_app
 
 A new Flutter project.
@@ -17,4 +16,3 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 =======
 # Team20-Flutter-Project
->>>>>>> d3b96c5b9959d337311e4540f4e76a6848b7c729

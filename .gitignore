@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Miscellaneous
 *.class
 *.log
@@ -67,4 +66,3 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
->>>>>>> d3b96c5b9959d337311e4540f4e76a6848b7c729
