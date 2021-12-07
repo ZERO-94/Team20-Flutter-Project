@@ -35,19 +35,31 @@ Then run the application
 ```bash
   flutter run
 ```
-**Remember to choose your device, our application only run on _Android_**
+**Remember to choose your device, our application only run on _Android_!**
 
 ## Features
 
 - Calculate BMI score base on your informations.
-    We get the the information from user includes age, gender, height, weight and working level to calculate BMI
-    The formula that we use: (weight)/(height * height)
+
+    We get the the information from user includes age, gender, height, weight and working level to calculate BMI.
+    
+    The formula that we use: (weight)/(height * height).
+
     With: 
-      - height: cm
-      - weight: kg
+     - height: cm
+     - weight: kg
 - Calculate BMR score you need everyday, help you to prepare meals everyday.
-- List of delicious dishes for breakfast, lunch, dinner, snacks with their recipes and ingredients.
-- Keep track of your calorie intake
+    We get the the information from user includes age, gender, height, weight and working level to calculate BMI.
+    
+    The formula that we use: 
+     - Male: 66 + (13.7 * weight) + (5 * height) - (6.8 * age)
+     - Female: 655 + (9.6 * weight) + (1.8 * height) - (4.7 * age)
+
+    With: 
+     - height: cm
+     - weight: kg
+- List of delicious dishes for breakfast, lunch, dinner, snacks with their recipes and ingredients. You can add them in "my kitchen" to calculate the amount of kcal that you have consumed.
+- Keep track of your calorie intake and your meal.
 
 ## Authors
 
