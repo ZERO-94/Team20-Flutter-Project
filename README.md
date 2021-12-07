@@ -17,11 +17,11 @@ This is a Flutter app making in 3 days (6-8/12/2021) during [Google devfest HCMC
 
 ## Table of Contents
 
+ - [Technology](#technology)
  - [Quick start](#quickstart)
  - [Features](#features)
  - [Authors](#authors)
  - [Contributing](#contributing)
- - [Technology](#technology)
 
 ## Quickstart
 
@@ -35,13 +35,14 @@ Then run the application
 ```bash
   flutter run
 ```
-####remember to choose your device, our application only on Android
+**Remember to choose your device, our application only run on _Android_**
+
 ## Features
 
 - Calculate BMI score base on your informations.
 - Calculate BMR score you need everyday, help you to prepare meals everyday.
 - List of delicious dishes for breakfast, lunch, dinner, snacks with their recipes and ingredients.
--
+- Keep track of your calorie intake
 
 ## Authors
 
@@ -57,3 +58,4 @@ We are members of **Team 20** - participated in [Google devfest HCMC 2021](https
 **Pull requests** are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
