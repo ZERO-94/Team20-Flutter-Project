@@ -20,7 +20,7 @@ class MealGridItem extends StatelessWidget {
       child: GridTile(
         child: GestureDetector(
           onTap: () {
-            Navigator.pushNamed(context, "food_list");
+            Navigator.pushNamed(context, "/food-list");
           },
           child: Image.asset(imageUrl, fit: BoxFit.cover),
         ),
