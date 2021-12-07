@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:food_app/models/user.dart';
 import 'package:food_app/widgets/user_infor_form.dart';
-import '../widgets/meal_grid_item.dart';
-import '../widgets/category.dart';
+import 'package:provider/provider.dart';
+
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({Key? key}) : super(key: key);
@@ -22,6 +23,7 @@ class MapScreenState extends State<ProfilePage>
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       backgroundColor: Colors.red[800],
       body:Container(
@@ -48,6 +50,9 @@ class UserHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    final user = Provider.of<User>(context);
+
     return Container(
       child: Column(
         children: [
@@ -67,7 +72,7 @@ class UserHeader extends StatelessWidget {
             padding: EdgeInsets.only(
                 left: 25.0, right: 25.0, top: 5.0),
             child: Text(
-              'Tran Van Long',
+              user.userName!,
               style: TextStyle(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold),

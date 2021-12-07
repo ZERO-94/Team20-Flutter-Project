@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:food_app/models/user.dart';
+import 'package:provider/provider.dart';
 
 class UserInforForm extends StatefulWidget {
   const UserInforForm({Key? key}) : super(key: key);
@@ -12,9 +14,12 @@ class _UserInforFormState extends State<UserInforForm> {
   String gender = "Nam";
   String workingLevel = '1';
 
+
+
   @override
   Widget build(BuildContext context) {
     // Build a Form widget using the _formKey created above.
+
     return Container(
       decoration: BoxDecoration(
         color: Colors.white,
