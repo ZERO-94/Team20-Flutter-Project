@@ -40,6 +40,11 @@ Then run the application
 ## Features
 
 - Calculate BMI score base on your informations.
+    We get the the information from user includes age, gender, height, weight and working level to calculate BMI
+    The formula that we use: (weight)/(height * height)
+    With: 
+      - height: cm
+      - weight: kg
 - Calculate BMR score you need everyday, help you to prepare meals everyday.
 - List of delicious dishes for breakfast, lunch, dinner, snacks with their recipes and ingredients.
 - Keep track of your calorie intake
