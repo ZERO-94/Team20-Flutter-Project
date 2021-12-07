@@ -16,7 +16,7 @@ class _MyKitchenPageState extends State<MyKitchenPage> {
     "date": "2020-01-10",
     "mbi" : 18.5,
     "maxKcal": 1000,
-    "currentKcal": 800,
+    "currentKcal": 600,
     "foodList" : [
       {
         "id": 1,
@@ -92,7 +92,7 @@ class _MyKitchenPageState extends State<MyKitchenPage> {
                     fontWeight: FontWeight.bold,
                   )
                 ),
-                Text('Bạn sắp đạt mức tối đa của ngày',
+                Text(status["comment"],
                     style: TextStyle(
                       fontSize: 18,
                       color: status["color"],

@@ -1,4 +1,4 @@
-import 'package:dinner_app/today_food_provider.dart';
+import '../provider_service/today_food_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -11,12 +11,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider<ToDayFoodProvider>(
-      create: (_) => ToDayFoodProvider(),
-      child: const MaterialApp(
-        home: FoodListPage(),
-      ),
-    );
+    return FoodListPage();
   }
 }
 
@@ -43,37 +38,6 @@ class FoodListPage extends StatelessWidget {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: const Color(0xFFF6284D),
-          bottom: TabBar(
-            tabs: [
-              Column(
-                children: const [
-                  Tab(
-                    height: 35.0,
-                    icon: Icon(Icons.house),
-                  ),
-                  Text('Trang chủ')
-                ],
-              ),
-              Column(
-                children: const [
-                  Tab(
-                    height: 35.0,
-                    icon: Icon(Icons.restaurant),
-                  ),
-                  Text('Ngăn bếp của tôi')
-                ],
-              ),
-              Column(
-                children: const [
-                  Tab(height: 35.0, icon: Icon(Icons.person)),
-                  Text('Ngăn bếp của tôi')
-                ],
-              ),
-            ],
-          ),
-        ),
         body: TabBarView(children: [
           ListView.builder(
               shrinkWrap: true,
