@@ -12,18 +12,21 @@ This is a Flutter app making in 3 days (6-8/12/2021) during [Google devfest HCMC
  - [Contributing](#contributing)
 ## Quickstart
 
-You can clone our-project using git clone:
+Our application using Flutter 2.5.3 so you should have Flutter SDK and update your PATH with the Flutter SDK. Install Android Studio with the Flutter and Dart plugins, or your favorite editor.
+You can clone our-project using git clone or download zip file:
 
 ```bash
   git clone https://github.com/ZERO-94/Team20-Flutter-Project.git
 ```
-Or download the zip file and build it using your Android Studio.
-
+Then run the application (remember to choose your device)
+```bash
+  flutter run
+```
 ## Features
 
 - Calculate BMI score base on your informations.
 - Calculate BMR score you need everyday, help you to prepare meals everyday.
-- List of delicious dishes for breakfast, lunch, dinner, snacks and update regularly.
+- List of delicious dishes for breakfast, lunch, dinner, snacks with their recipes and ingredients.
 - History feature so you can check what you eat yesterday.
 
 ## Authors
