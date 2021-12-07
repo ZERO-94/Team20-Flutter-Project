@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:food_app/pages/homepage.dart';
+import 'package:food_app/pages/profile_page.dart';
 import './my_kitchen_page.dart';
 
 class MainPage extends StatelessWidget {
@@ -29,12 +31,8 @@ class MainPage extends StatelessWidget {
         ),
         body: TabBarView(
           children: <Widget>[
-            Center(
-              child: Text("It's cloudy here"),
-            ),
-            Center(
-              child: Text("It's rainy here"),
-            ),
+            HomePage(),
+            ProfilePage(),
             MyKitchenPage(),
           ],
         ),
