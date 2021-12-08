@@ -36,7 +36,7 @@ Then run the application
 ```bash
   flutter run
 ```
-**Remember to choose your device, our application only run on _Android_!**
+**Remember to choose your device, our application only run on _Android_ because we only register our Firebase service on Android!!**
 
 ## Features
 
