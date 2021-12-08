@@ -24,20 +24,22 @@ class _SignInPageState extends State<SignInPage> {
             ),
             Positioned(
               top: 55.0,
-              left: width / 4.5,
+              left: width / 3.9,
               child: Row(
                 children: [
                   Hero(
                     tag: '/food',
                     child: Image.asset(
                       'images/food.png',
+                      width: width  /2,
+                      height: height / 7
                     ),
                   )
                 ],
               ),
             ),
             Positioned(
-              top: height / 3,
+              top: height / 4.5,
               bottom: 0.0,
               child: Container(
                 width: width,

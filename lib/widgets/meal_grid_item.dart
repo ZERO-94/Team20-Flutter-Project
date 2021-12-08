@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:food_app/pages/food_list_page.dart';
+
+import 'package:provider/provider.dart';
 
 class MealGridItem extends StatelessWidget {
   String title = "";
@@ -6,34 +9,34 @@ class MealGridItem extends StatelessWidget {
   String imageUrl = "";
   String navigateLink = "";
 
-  MealGridItem (String title, String subtitle, String imageUrl, String navigateLink) {
-    this.title = title;
-    this.subtitle = subtitle;
-    this.imageUrl = imageUrl;
-    this.navigateLink = navigateLink;
-  }
+  MealGridItem (this.title, this.subtitle, this.imageUrl, this.navigateLink);
 
   @override
   Widget build(BuildContext context) {
+
     return ClipRRect(
       borderRadius: BorderRadius.circular(10),
       child: GridTile(
         child: GestureDetector(
           onTap: () {
-            Navigator.pushNamed(context, "/food-list");
+
+            Navigator.push(context, MaterialPageRoute(builder: (_){
+              return FoodListPage(title: title);
+            }));
+
           },
           child: Image.asset(imageUrl, fit: BoxFit.cover),
         ),
         footer: GridTileBar(
           backgroundColor: Colors.white,
           title: Container(
-            padding: EdgeInsets.all(5.0),
+            padding: const EdgeInsets.all(5.0),
             child: Column(
               children: [
                 Text(
                     title,
                     textAlign: TextAlign.center,
-                    style: TextStyle(
+                    style: const TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18.0,
                         color: Colors.black

@@ -7,7 +7,7 @@ class Category extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: Colors.white,
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(20), topRight: Radius.circular(20),
@@ -16,8 +16,8 @@ class Category extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            padding: EdgeInsets.all(10.0),
-              child: Text(
+            padding: const EdgeInsets.all(10.0),
+              child: const Text(
                   'Chọn bữa ăn',
                 style: TextStyle(
                     fontSize: 32.0,
@@ -27,7 +27,7 @@ class Category extends StatelessWidget {
           ),
           Flexible(
             child: Container(
-              padding: EdgeInsets.all(20.0),
+              padding: const EdgeInsets.all(20.0),
               child: GridView.count(
                 primary: false,
                 crossAxisCount: 2,

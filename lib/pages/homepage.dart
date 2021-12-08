@@ -13,25 +13,25 @@ class HomePage extends StatelessWidget {
           Container(
             height: 100,
             child:Padding(
-                padding: EdgeInsets.only(
+                padding: const EdgeInsets.only(
                     left: 30.0, right: 15.0, top: 5.0),
-                child: new Row(
+                child: Row(
                   mainAxisSize: MainAxisSize.max,
                   children: <Widget>[
                     Expanded(
-                      child: new Column(
+                      child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         mainAxisSize: MainAxisSize.min,
                         crossAxisAlignment: CrossAxisAlignment.center,
-                        children: <Widget>[
-                          new Text(
+                        children: const <Widget>[
+                          Text(
                             'Hãy để chúng tôi hỗ trợ cho',
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 20.0,
                                 fontWeight: FontWeight.bold)
                           ),
-                          new Text(
+                          Text(
                               'bữa ăn của bạn',
                               style: TextStyle(
                                   color: Colors.white,
@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
                   ],
                 )),
           ),
-          Flexible(child: Category())
+          const Flexible(child: Category())
         ]
       ),
     );

@@ -12,7 +12,7 @@ abstract class AuthBase {
 }
 
 class Auth implements AuthBase {
-  final _firebaseAuth = FirebaseAuth.instance;
+  static final _firebaseAuth = FirebaseAuth.instance;
 
   @override
   Future<void> signInWithEmailAndPasswords(
