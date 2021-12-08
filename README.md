@@ -65,7 +65,7 @@ Then run the application
 ## Demo
 
 [![Demo](https://res.cloudinary.com/marcomontalbano/image/upload/v1638930584/video_to_markdown/images/google-drive--1Zn0TneOlYxSvkrWGyguonI7MNtfFnHp4-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1Zn0TneOlYxSvkrWGyguonI7MNtfFnHp4/view "Demo")
-![Demo](https://drive.google.com/file/d/1M56b0i0mqbSUh949LhtnvhC0lQ7AJkCC/view)
+<img src="https://drive.google.com/file/d/1M56b0i0mqbSUh949LhtnvhC0lQ7AJkCC/view" />
 
 ## Authors
 
