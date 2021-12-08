@@ -62,7 +62,7 @@ Then run the application
 - List of delicious dishes for breakfast, lunch, dinner, snacks with their recipes and ingredients. You can add them in "my kitchen" to calculate the amount of kcal that you have consumed.
 - Keep track of your calorie intake and your meal.
 
-##Demo
+## Demo
 
 [![Demo](https://res.cloudinary.com/marcomontalbano/image/upload/v1638930584/video_to_markdown/images/google-drive--1Zn0TneOlYxSvkrWGyguonI7MNtfFnHp4-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1Zn0TneOlYxSvkrWGyguonI7MNtfFnHp4/view "Demo")
 
